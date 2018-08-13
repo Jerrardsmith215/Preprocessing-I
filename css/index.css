@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 2rem;
   font: inherit;
   vertical-align: baseline;
 }
@@ -130,7 +130,58 @@ table {
 * {
   box-sizing: border-box;
 }
-html,
+
+html { 
+  height:100%;
+}
+
 body {
-  height: 95%;
+  background-image: url(c:/users/ShowUsChrist/Desktop/Lambda/Preprocessing-I/img/bg1.jpeg);
+  background-size: cover;
+}
+/*Container setup*/
+.container {
+  display:block;
+  background-color:rgb(255, 222, 157);
+  margin: 5% auto;
+  height:800px;
+  width: 75%;
+  opacity: .88;
+}
+
+.container-bottom {
+  border: 5px solid brown;
+  height:50%;
+}
+
+.fastimg {
+  width:100%;
+}
+
+.info {
+  display: flex;
+  border: 5px solid blue;
+}
+
+.about {
+  border: 5px solid orange;
+  width: 50%;
+}
+
+.skills {
+  border: 5px solid red;
+  width: 50%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#name {
+  font-weight:bold;
+
+}
+
+#skillset {
+  font-weight: bold;
 }
